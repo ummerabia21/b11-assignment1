@@ -114,7 +114,10 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    width: auto;
+    height: 100px;
     padding: 24px 160px;
+    margin: 0 auto 0 auto;
 }
 nav li{
     list-style: none;
@@ -163,6 +166,6 @@ nav li a{
     padding: 80px 100px;
     justify-content: space-between;
     position: relative;
-    margin: 0 80px 0 80px;
+    margin: 0 auto 0 auto;
 
 }
