@@ -130,3 +130,33 @@ nav li a{
     border-radius: 8px;
     
 }
+#text{
+    font-size: 56px;
+}
+#t {
+    opacity: 50%;
+
+
+}
+.title{
+    font-size: 24px;
+}
+#ti{
+    font-size: 32px;
+}
+.button{
+    background-color: #006A50;
+    border-radius: 8;
+    color: #FFFFFF;
+    padding: 17px 34px;
+}
+.banner{
+    display: flex;
+    height: 560px;
+    width: 1280px;
+    background-color: #C6E4D6;
+    border-radius: 24;
+   
+    
+
+}
