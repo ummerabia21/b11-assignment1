@@ -114,7 +114,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 24px 80px;
+    padding: 24px 160px;
 }
 nav li{
     list-style: none;
@@ -128,6 +128,8 @@ nav li a{
     border-color: #006A50;
     padding:15px 30px ;
     border-radius: 8px;
+    height: 52px;
+    width: 116px;
     
 }
 #text{
@@ -146,17 +148,21 @@ nav li a{
 }
 .button{
     background-color: #006A50;
-    border-radius: 8;
+    border-radius: 8px;
     color: #FFFFFF;
     padding: 17px 34px;
 }
+
+
 .banner{
     display: flex;
     height: 560px;
     width: 1280px;
     background-color: #C6E4D6;
-    border-radius: 24;
-   
-    
+    border-radius: 24px;
+    padding: 80px 100px;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 80px 0 80px;
 
 }
