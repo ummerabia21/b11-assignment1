@@ -105,11 +105,14 @@
     font-weight: 900;
     font-style: italic;
   }
+*{
+  margin: 0%;
+}
   
 .body{
     max-width: 0 auto;
-    margin-left: 160px;
-    margin-right: 160px;
+    margin: 0 160px;
+    
 }
 .green{
     color: #006A50;
@@ -120,6 +123,7 @@ nav{
     padding: 24px 160px;
     margin: 0 auto 0 auto;
 }
+
 nav li{
     list-style: none;
 }
@@ -132,6 +136,7 @@ nav li a{
     border-color: #006A50;
     padding:15px 30px ;
     border-radius: 8px;
+    text-align: center;
   
     
 }
@@ -166,6 +171,7 @@ nav li a{
     padding: 80px 100px;
     align-content: center;
     border: 1px solid #C6E4D6 ;
+    margin-bottom: 80px;
     
 }
 #c{
@@ -177,14 +183,18 @@ main{
     max-width: 0 auto;
     margin-top: 80px;
     margin-bottom: 80px;
+    
 }
 section{
     margin-top: 80px;
     margin-bottom: 80px;
+   
 }
 .piller-container {
     display: flex;
    gap: 24px;
+   margin-top: 32px;
+   margin-bottom: 32px;
 }
 .piller{
     background-color: #FFFFFF;
@@ -203,6 +213,11 @@ section{
 .vision-container {
     display: flex;
     gap: 24px;
+    margin: 32px 0;
+}
+.section-description{
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 .vision{
     border-radius: 16px;
@@ -214,9 +229,13 @@ section{
 }   
 .vision-title{
     font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
 }
 .vision-description{
     font-size: 16px;
+   
 }
 
 .b{
@@ -281,12 +300,38 @@ div .ul{
   display: flex;
   list-style: none;
   gap: 24px;
-  margin: 0 auto;
+  width: auto;
+  
+  margin-left: 104.5px;
+  margin-right: 104.5px;
+
   
 }
 .bl{
-  border: 1px solid rgba(14, 14, 14, 0.15);
+  border: 1px solid rgba(14, 14, 14, 0.15) ;
   border-radius: 16px;
   padding: 40px;
- 
+}
+#input{
+  margin-left: 124px;
+  margin-right: 124px;
+  width: auto;
+  padding: 20px 422.5px;
+  font-size: 20px;
+  border: 2px solid rgba(14, 14, 14, 0.15);
+}
+#taka{
+  align-items: center;
+ justify-content: center;
+}
+.input{
+  list-style: none;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  
+}
+#done{
+  margin-top: 32px;
+  margin-bottom: 32px;
 }

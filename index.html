@@ -5,12 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Assignment</title>
+    <style>
+        input[type="text"]::placeholder{
+            text-align: center;
+        }
+        
+    </style>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="styles/portfolio.css">
+    
 
 </head>
 
@@ -18,7 +25,7 @@
     <header>
         <nav>
             <p class="fira-sans-bold" id="ti" style="color: #0E0E0E;">Bangladesh 2.0</p>
-            <li>
+            <li class="nav">
                 <a href=""><Button class="fira-sans-semibold green btn">Sign In</Button></a>
             </li>
         </nav>
@@ -150,12 +157,16 @@
         </section>
         <section class="d">
             <h1 class="section-title fira-sans-bold donate ">Donate Today</h1>
-            <p class="section-description">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure, the country is set to become a global model of development.</p>
-            <div class="tip fira-sans-bold section-title">
-                <li  class="bl" style="background-color: #FFFFFF;">100 Taka</li>
-                <li  class="bl" style="background-color: #C6E4D6;">200 Taka</li>
-                <li  class="bl" style="background-color: #FFFFFF;">500 Taka</li>
-                <li  class="bl" style="background-color: #FFFFFF;">1000 Taka</li>
+            <p class="section-description donate ">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure, the country is set to become a global model of development.</p>
+            <div class="tip donate fira-sans-bold section-title" id="taka" >
+                <div class="bl">100 Taka</div>
+                <div class="bl" style="background-color: #C6E4D6;">200 Taka</div>
+                <div class="bl">500 Taka</div>
+                <div class="bl">1000 Taka</div>
+            </div>
+            <div class="input">
+               <li><input type="text" placeholder="Other Amount (Taka)" id="input"></li>
+               <li><input type="button" value="Done Now" class="fira-sans-semibold green button" id="done"></li>
             </div>
         
         </section>
