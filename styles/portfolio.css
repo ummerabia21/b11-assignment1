@@ -159,11 +159,13 @@ nav li a{
 
 .banner{
     display: flex;
+    gap: 64px;
     justify-content: space-between;
     background-color: #C6E4D6;
     border-radius: 24px;
     padding: 80px 100px;
     align-content: center;
+    border: 1px solid #C6E4D6 ;
     
 }
 #c{
@@ -234,4 +236,57 @@ section{
   border-radius: 16px;
   padding: 48px 24px;
 
+}
+.ne{
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+div .ul{
+  list-style: none;
+}
+.news-container{
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
+  border-radius: 24px;
+  padding: 48px;
+  border: 1px solid rgba(14, 14, 14, 0.15) ;
+
+
+}
+.satelite{
+  width: 408px;
+  height: 306px;
+  border-radius: 24px;
+
+}
+.ul{
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  
+}
+.news{
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.news-title{
+  font-size: 32px;
+}
+.donate{
+  text-align: center;
+}
+.tip{
+  display: flex;
+  list-style: none;
+  gap: 24px;
+  margin: 0 auto;
+  
+}
+.bl{
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  padding: 40px;
+ 
 }
